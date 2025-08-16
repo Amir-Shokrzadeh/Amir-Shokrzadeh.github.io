@@ -4,9 +4,9 @@ title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
-profile:
+profile: true
   align: right
-  image: profile.jpg
+  image: "assets/img/profile.jpg"
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
