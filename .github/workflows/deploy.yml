@@ -16,21 +16,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.1'
           bundler-cache: true
       
-      # =====> این مرحله جدید و مهم اضافه شده است <=====
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install Jupyter and dependencies
+        run: pip install jupyter nbconvert
+      
       - name: Install ImageMagick
         run: sudo apt-get update && sudo apt-get install -y imagemagick
       
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+        
       - name: Build with Jekyll
         run: bundle exec jekyll build --source . --destination ./_site
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
