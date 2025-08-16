@@ -33,6 +33,6 @@ To pursue this mission, I have cultivated a strong technical foundation centered
 * **Medical Imaging:** I have focused experience in computer vision for healthcare, including working with medical data formats like **DICOM** and utilizing specialized libraries such as **MONAI** and **OpenCV** for image segmentation and classification tasks.
 * **Software & Deployment:** I believe in building tangible tools. I have experience in developing proof-of-concept web applications with **Flask** and containerizing them with **Docker** to ensure reproducibility and ease of deployment.
 
-I am currently seeking a Ph.D. position where I can apply these skills to cutting-edge research. I am particularly drawn to the challenges of explainable AI (XAI) in clinical settings and the use of generative models to address data scarcity in the fields of **Drug Discovery** and **Precision Medicine** and anything in between.
+**I am currently seeking a Ph.D. position** where I can apply these skills to cutting-edge research in **Medical AI**. I am particularly drawn to the challenges of explainable AI (XAI) in clinical settings and the use of generative models to address data scarcity in the fields of **Drug Discovery** and **Precision Medicine** and anything in between.
 
 [You can find my full CV here.](https://drive.google.com/file/d/15FCWGiMvgW-8KxXe5reksp4p8Ja95vCq/view?usp=drive_link)
