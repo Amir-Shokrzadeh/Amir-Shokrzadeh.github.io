@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New Projects in Medical AI are on the way!
+New Projects are on the way!
