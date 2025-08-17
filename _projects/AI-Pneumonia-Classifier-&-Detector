@@ -8,14 +8,6 @@ category: work
 ---
 
 
----
-layout: page
-title: AI Pneumonia Classifier
-description: A comparative analysis of deep learning models for pneumonia detection from chest X-rays.
-img: /assets/img/pneumonia_thumbnail.jpg
-importance: 1
-category: Deep Learning
----
 
 <div class="text-center">
     <a href="https://huggingface.co/spaces/AKA-Enzo/Pneuma-Detector" class="btn btn-primary btn-lg" role="button" target="_blank" rel="noopener noreferrer">🚀 Live Demo on Hugging Face</a>
@@ -27,7 +19,7 @@ This project addresses the critical challenge of detecting pneumonia from chest 
 
 <br/>
 
-### Comparative Analysis & Solution
+Comparative Analysis & Solution
 
 To find the most effective architecture, I trained and evaluated three different models: a baseline **ResNet-18**, a modern and efficient **EfficientNet-B0**, and a **Vision Transformer (ViT)**.
 
@@ -35,9 +27,9 @@ A key challenge was the significant class imbalance in the dataset, which initia
 
 <br/>
 
-### Key Technologies
+<b>Key Technologies</b>
 
-* **Programming Language:** Python 3.9
+<b>Programming Language: Python 3.9</b>
 * **Core Libraries:** PyTorch, Torchvision
 * **Data Science:** Pandas, NumPy, Scikit-learn
 * **Visualization:** Matplotlib, Seaborn
