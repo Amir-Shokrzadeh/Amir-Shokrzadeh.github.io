@@ -21,9 +21,9 @@ This project addresses the critical challenge of detecting pneumonia from chest 
 
 Comparative Analysis & Solution
 
-To find the most effective architecture, I trained and evaluated three different models: a baseline **ResNet-18**, a modern and efficient **EfficientNet-B0**, and a **Vision Transformer (ViT)**.
+To find the most effective architecture, I trained and evaluated three different models: a baseline <b>ResNet-18</b>, a modern and efficient <b>EfficientNet-B0</b>, and a <b>Vision Transformer (ViT)</b>.
 
-A key challenge was the significant class imbalance in the dataset, which initially caused a low recall for healthy patients. To solve this, I implemented a **Weighted Loss function** that successfully balanced the model's predictions and improved overall fairness and performance.
+A key challenge was the significant class imbalance in the dataset, which initially caused a low recall for healthy patients. To solve this, I implemented a <b>Weighted Loss function</b> that successfully balanced the model's predictions and improved overall fairness and performance.
 
 <br/>
 
@@ -42,17 +42,18 @@ A key challenge was the significant class imbalance in the dataset, which initia
 <br/>
 
 <b>Results</b>
-
+<br/>
 The final test results demonstrated the superiority of the EfficientNet-B0 architecture, especially after applying the weighted loss strategy.
 <br/>
-| Model Architecture | Test Accuracy | Test Recall (NORMAL) | Test Recall (PNEUMONIA) | F1-Score (Weighted Avg) |
-</br>
-| :--- | :---: | :---: | :---: | :---: |
-| ResNet-18 (Weighted) | 80.0% | 0.46 | <b>1.00</b> | 0.77 |
+|     Model Architecture     | Test Accuracy | Test Recall (NORMAL) | Test Recall (PNEUMONIA) | F1-Score (Weighted Avg) |
 <br/>
-| EfficientNet-B0 (Weighted) | <b>85.1%</b> | <b>0.65</b> | 0.97 | <b>0.85</b> |
+| -------------------------- | ------------- | -------------------- | ----------------------- | ----------------------- |
 <br/>
-| Vision Transformer (ViT) | 70.0% | 0.26 | 0.96 | 0.65 |
+|    ResNet-18 (Weighted)    |     80.0%     |          0.46        |       <b>1.00</b>       |          0.77           |
+<br/>
+| EfficientNet-B0 (Weighted) |  <b>85.1%</b> |     <b>0.65</b>      |          0.97           |       <b>0.85</b>       |
+<br/>
+|  Vision Transformer (ViT)  |     70.0%     |         0.26         |          0.96           |          0.65           |
 
 
 The <b>EfficientNet-B0</b> model emerged as the clear winner, achieving the highest accuracy and the best balance between identifying healthy and sick patients. The Vision Transformer struggled to generalize, likely due to the limited dataset size. For a complete technical overview and setup instructions,
