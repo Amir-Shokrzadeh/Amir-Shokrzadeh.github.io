@@ -50,9 +50,10 @@ A key challenge was the significant class imbalance in the dataset, which initia
 The final test results demonstrated the superiority of the EfficientNet-B0 architecture, especially after applying the weighted loss strategy.
 
 | Model Architecture | Test Accuracy | Test Recall (NORMAL) | Test Recall (PNEUMONIA) | F1-Score (Weighted Avg) |
-| -------------------------- | ------------- | -------------------- | ----------------------- | ----------------------- |
-| ResNet-18 (Weighted) | 80.0% | 0.46 | 1.00 | 0.77 |
-| **EfficientNet-B0 (Weighted)** | **85.1%** | **0.65** | **0.97** | **0.85** |
+| :--- | :---: | :---: | :---: | :---: |
+| ResNet-18 (Weighted) | 80.0% | 0.46 | **1.00** | 0.77 |
+| **EfficientNet-B0 (Weighted)** | **85.1%** | **0.65** | 0.97 | **0.85** |
 | Vision Transformer (ViT) | 70.0% | 0.26 | 0.96 | 0.65 |
+
 
 The **EfficientNet-B0** model emerged as the clear winner, achieving the highest accuracy and the best balance between identifying healthy and sick patients. The Vision Transformer struggled to generalize, likely due to the limited dataset size. For a complete technical overview and setup instructions, please visit the [full project repository on GitHub](https://github.com/Amir-Shokrzadeh/AI-Pneumonia-Classifier).
