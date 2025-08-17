@@ -2,6 +2,16 @@
 layout: page
 title: AI Pneumonia Classifier
 description: A comparative analysis of deep learning models for pneumonia detection from chest X-rays.
+img: assets/img/pneumonia_thumbnail.jpg
+importance: 1
+category: work
+---
+
+
+---
+layout: page
+title: AI Pneumonia Classifier
+description: A comparative analysis of deep learning models for pneumonia detection from chest X-rays.
 img: /assets/img/pneumonia_thumbnail.jpg
 importance: 1
 category: Deep Learning
