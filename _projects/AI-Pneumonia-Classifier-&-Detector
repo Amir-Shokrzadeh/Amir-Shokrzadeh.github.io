@@ -58,4 +58,4 @@ The final test results demonstrated the superiority of the EfficientNet-B0 archi
 <br/>
 The <b>EfficientNet-B0</b> model emerged as the clear winner, achieving the highest accuracy and the best balance between identifying healthy and sick patients. The Vision Transformer struggled to generalize, likely due to the limited dataset size.
 <br/>
-For a complete technical overview and setup instructions, please visit the repository on GitHub: https://github.com/Amir-Shokrzadeh/AI-Pneumonia-Classifier
+For a complete technical overview and setup instructions, please visit the repository on GitHub: <a href="https://github.com/Amir-Shokrzadeh/AI-Pneumonia-Classifier">Github Repo</a>
