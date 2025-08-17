@@ -45,12 +45,9 @@ A key challenge was the significant class imbalance in the dataset, which initia
 
 <b>Results:</b>
 <br/>
-<br/>
 The final test results demonstrated the superiority of the EfficientNet-B0 architecture, especially after applying the weighted loss strategy.
 <br/>
-|     Model Architecture     | Test Accuracy | Test Recall (NORMAL) | Test Recall (PNEUMONIA) | F1-Score (Weighted Avg) |
-<br/>
-
+<b>|     Model Architecture     | Test Accuracy | Test Recall (NORMAL) | Test Recall (PNEUMONIA) | F1-Score (Weighted Avg) |</b>
 <br/>
 |    ResNet-18 (Weighted)    |     80.0%     |          0.46        |       <b>1.00</b>       |          0.77           |
 <br/>
